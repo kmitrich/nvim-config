@@ -1,4 +1,4 @@
-local current_theme = "zoomer"
+local current_theme = "retro"
 themes = {
     boomer = {
         colorscheme = "neodarcula",
@@ -30,6 +30,17 @@ themes = {
         colorscheme_lazy_fetch = { "rebelot/kanagawa.nvim" },
     },
 
+    edgy_zoomer = {
+        colorscheme = "kanagawa-dragon",
+        font = "JetBrains Mono",
+        default_font_size = 20,
+        number = false,
+        relativenumber = false,
+        lualine = true,
+
+        colorscheme_lazy_fetch = { "rebelot/kanagawa.nvim" },
+    },
+
     tsoding = {
         colorscheme = "gruber-darker",
         font = "Iosevka Nerd Font Mono",
@@ -43,13 +54,60 @@ themes = {
     
     vscode = {
         colorscheme = "vscode",
-        font = "Cascadia Code",
-        default_font_size = 19,
+        font = "Consolas",
+        default_font_size = 19.5,
         number = true,
         relativenumber = false,
         lualine = true,
 
         colorscheme_lazy_fetch = { 'Mofiqul/vscode.nvim' }
+    },
+
+    office = {
+        colorscheme = "morning",
+        font = "DejaVu Sans Mono",
+        default_font_size = 12,
+        number = true,
+        relativenumber = false,
+        lualine = true
+    },
+
+    edgy_office = {
+        colorscheme = "kanagawa-dragon",
+        font = "DejaVu Sans Mono",
+        default_font_size = 12,
+        number = false,
+        relativenumber = false,
+        lualine = true,
+
+        colorscheme_lazy_fetch = { "rebelot/kanagawa.nvim" },
+    },
+
+    brulee = {
+        colorscheme = "brulee",
+        font = "DejaVu Sans Mono",
+        default_font_size = 16.5,
+        number = false,
+        relativenumber = false,
+        lualine = true,
+    },
+
+    granpamonokai = {
+        colorscheme = "unokai",
+        font = "DejaVu Sans Mono",
+        default_font_size = 16.5,
+        number = true,
+        relativenumber = false,
+        lualine = true,
+    },
+
+    retro = {
+        colorscheme = "blue",
+        font = "BigBlueTermPlus Nerd Font",
+        default_font_size = 17.5,
+        number = false,
+        relativenumber = false,
+        lualine = false
     },
 
     fallback = {
